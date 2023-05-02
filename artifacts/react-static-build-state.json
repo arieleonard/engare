@@ -1,0 +1,62 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "C:\\Users\\arile\\Documents\\POLY\\POLY H2023\\will\\engare\\node_modules\\react-static-plugin-source-filesystem\\node.api.js",
+      {
+        "location": "C:\\Users\\arile\\Documents\\POLY\\POLY H2023\\will\\engare\\src\\pages"
+      }
+    ],
+    "C:\\Users\\arile\\Documents\\POLY\\POLY H2023\\will\\engare\\node_modules\\react-static-plugin-reach-router\\browser.api.js",
+    "C:\\Users\\arile\\Documents\\POLY\\POLY H2023\\will\\engare\\node_modules\\react-static-plugin-sitemap\\dist\\node.api.js",
+    "C:\\Users\\arile\\Documents\\POLY\\POLY H2023\\will\\engare"
+  ],
+  "paths": {
+    "ROOT": "C:\\Users\\arile\\Documents\\POLY\\POLY H2023\\will\\engare",
+    "SRC": "C:\\Users\\arile\\Documents\\POLY\\POLY H2023\\will\\engare\\src",
+    "DIST": "C:\\Users\\arile\\Documents\\POLY\\POLY H2023\\will\\engare\\dist",
+    "ASSETS": "C:\\Users\\arile\\Documents\\POLY\\POLY H2023\\will\\engare\\dist",
+    "PLUGINS": "C:\\Users\\arile\\Documents\\POLY\\POLY H2023\\will\\engare\\plugins",
+    "TEMP": "C:\\Users\\arile\\Documents\\POLY\\POLY H2023\\will\\engare\\tmp",
+    "ARTIFACTS": "C:\\Users\\arile\\Documents\\POLY\\POLY H2023\\will\\engare\\artifacts",
+    "PUBLIC": "C:\\Users\\arile\\Documents\\POLY\\POLY H2023\\will\\engare\\public",
+    "NODE_MODULES": "C:\\Users\\arile\\Documents\\POLY\\POLY H2023\\will\\engare\\node_modules",
+    "EXCLUDE_MODULES": "C:\\Users\\arile\\Documents\\POLY\\POLY H2023\\will\\engare\\node_modules",
+    "PACKAGE": "C:\\Users\\arile\\Documents\\POLY\\POLY H2023\\will\\engare\\package.json",
+    "HTML_TEMPLATE": "C:\\Users\\arile\\Documents\\POLY\\POLY H2023\\will\\engare\\dist\\index.html",
+    "STATIC_DATA": "C:\\Users\\arile\\Documents\\POLY\\POLY H2023\\will\\engare\\dist\\staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
